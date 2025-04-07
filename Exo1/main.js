@@ -5,5 +5,5 @@ let nbClic = 0;
 myBtn.addEventListener("click", () => {
   nbClic++;
   cntClic.textContent = `You clicked ${nbClic} times`;
-  console.log(nbClic);
+  console.log(`You clicked ${nbClic} times`);
 });
