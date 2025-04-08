@@ -1,7 +1,7 @@
 let check = document.getElementById("check");
 
 check.addEventListener("click", () => {
-  let year = parseInt(document.getElementById("year").value);
+  let year = document.getElementById("year").value;
   let result = document.getElementById("result");
 
   let isBissex = (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0;
