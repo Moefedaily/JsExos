@@ -7,7 +7,6 @@ function animLogo() {
 
     logo.style.height = value + "px";
     logo.style.width = value + "px";
-
     let fontSize = Math.max(10, value / 10);
     logo.style.fontSize = fontSize + "px";
   }
